@@ -19,6 +19,10 @@ import (
 	"go.dedis.ch/onet/log"
 )
 
+func init() {
+	log.Lvl1("init protocol")
+}
+
 // ByzCoinX contains the state used to execute two rounds of blscosi.
 type ByzCoinX struct {
 	// the node we are represented-in

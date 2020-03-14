@@ -1,0 +1,17 @@
+Simulation = "byzcoinx"
+Servers = 1
+Bf = 4
+Depth = 1
+Rounds = 10
+Suite = "bn256.G2"
+
+Hosts
+6
+12
+18
+24
+30
+36
+42
+48
+54
